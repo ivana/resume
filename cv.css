@@ -1,0 +1,19 @@
+body {
+  font:16px baskerville, georgia, "times new roman", times, serif;
+  width:600px; margin:0 auto; padding:15px 30px;
+  border-width:0 1px; border-style:solid; border-color:#ddd;
+  background:snow; color:#222;
+}
+h1, h2 { font-family:"helvetica neue", helvetica, sans-serif; text-shadow: 1px 0px 2px rgba(80, 80, 80, .4); }
+h1, h2, strong { font-weight:normal; }
+strong, hgroup h1, hgroup h2 { text-shadow: 1px 0px 2px rgba(80, 80, 80, .8); }
+
+hgroup h1, hgroup h2 { font-family:inherit; }
+hgroup h1 { margin:0; font-size:40px; }
+hgroup h2 {
+  font-variant:small-caps; text-transform:lowercase; font-size:18px;
+  margin-top: -2px; letter-spacing: 2px; padding-left: 3px;
+}
+hgroup { margin-bottom:40px; }
+
+img { float:right; }
