@@ -1,8 +1,8 @@
 body {
-  font:16px baskerville, georgia, "times new roman", times, serif;
+  font:16px/1.5 baskerville, georgia, "times new roman", times, serif;
   width:600px; margin:0 auto; padding:15px 30px;
   border-width:0 1px; border-style:solid; border-color:#ddd;
-  background:snow; color:#222;
+  background:snow; color:#111;
 }
 h1, h2 { font-family:"helvetica neue", helvetica, sans-serif; text-shadow: 1px 0px 2px rgba(80, 80, 80, .4); }
 h1, h2, strong { font-weight:normal; }
@@ -17,3 +17,5 @@ hgroup h2 {
 hgroup { margin-bottom:40px; }
 
 img { float:right; }
+img + dl { float:left; width:34%; margin-top:0; }
+img ~ dl dt { float:left; margin-right:10px; }
