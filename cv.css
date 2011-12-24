@@ -32,6 +32,10 @@ nav ol, .item-sections { list-style-type:none; padding-left:0; }
 nav ol { position:relative; left: 640px; bottom: 20px; visibility:visible; }
 nav li:before { content:'# ';}
 
+a:link, nav li { color:crimson; }
+a:hover, a:active { text-decoration:none; }
+a:visited { color:indianred; }
+
 img { float:right; }
 img + dl { float:left; width:33%; margin-top:0; }
 img ~ dl dt { margin-right:10px; }
