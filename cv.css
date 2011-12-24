@@ -24,6 +24,11 @@ hgroup h2 {
 }
 hgroup { margin-bottom:40px; }
 
+nav { position:fixed; }
+nav ol, .item-sections { list-style-type:none; padding-left:0; }
+nav ol { position:relative; left: 640px; bottom: 20px; }
+nav li:before { content:'# ';}
+
 img { float:right; }
 img + dl { float:left; width:33%; margin-top:0; }
 img ~ dl dt { margin-right:10px; }
@@ -34,6 +39,5 @@ body > section section h1 { margin:25px 0 10px; }
 p { margin:8px 0; }
 p + ul, p + ol { margin-top:10px; }
 
-.item-sections { list-style-type:none; padding-left:0; }
 time { font-variant: small-caps; text-shadow: 1px 0px 2px rgba(120, 120, 120, .6); }
 time + ul { margin-top:10px; }
