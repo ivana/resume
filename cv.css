@@ -25,7 +25,7 @@ hgroup h2 {
 hgroup { margin-bottom:40px; }
 
 img { float:right; }
-img + dl { float:left; width:34%; margin-top:0; }
+img + dl { float:left; width:33%; margin-top:0; }
 img ~ dl dt { margin-right:10px; }
 
 body > section > h1 { margin-top:40px; }
