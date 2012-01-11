@@ -3,9 +3,11 @@ dl { margin:15px 0; }
 dl dt { float:left; margin-right:5px; }
 dt.more-dd { float:none; }
 dt.more-dd ~ dd { margin-left:0; }
-dt.more-dd ~ dd:before { content:'- '; }
+dt.more-dd ~ dd:before, .sublist li:before { content:'- '; }
 dt.more-dd ~ dd + dt { margin-top:8px; }
 dl ul { margin-left:10px; }
+.sublist { padding-left:0; margin-bottom:8px; }
+.sublist li { list-style:none; }
 
 body {
   font:16px/1.5 baskerville, georgia, "times new roman", times, serif;
@@ -36,7 +38,7 @@ a:link, nav li { color:crimson; }
 a:hover, a:active { text-decoration:none; }
 a:visited { color:indianred; }
 
-img { float:right; }
+img { float:right; margin-left:30px; }
 img + dl { float:left; width:33%; margin-top:0; }
 img ~ dl dt { margin-right:10px; }
 
