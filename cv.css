@@ -16,9 +16,9 @@ body {
   background:snow; color:#111;
 }
 
-h1, h2 { font-family:"helvetica neue", helvetica, sans-serif; text-shadow: 1px 0px 2px rgba(80, 80, 80, .4); }
-h1, h2, strong { font-weight:normal; }
-strong, hgroup h1, hgroup h2 { text-shadow: 1px 0px 2px rgba(80, 80, 80, .8); }
+h1, h2 { font-family:"helvetica neue", helvetica, sans-serif; }
+h1, h2, strong { font-weight:normal; text-shadow: 1px 1px 1px rgba(80, 80, 80, .4); }
+h1 a { text-shadow:none; }
 hgroup h1, hgroup h2 { font-family:inherit; }
 hgroup h1 { margin:0; font-size:40px; }
 hgroup h2 {
