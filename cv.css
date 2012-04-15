@@ -31,7 +31,7 @@ body > section section h1 { margin:25px 0 10px; font-size:19px; }
 
 nav { position:fixed; visibility:hidden; }
 nav ol, .item-sections { list-style-type:none; padding-left:0; }
-nav ol { position:relative; left: 640px; bottom: 20px; visibility:visible; }
+nav ol { position:relative; left: 640px; bottom:5px; visibility:visible; }
 nav li:before { content:'# ';}
 
 a:link, nav li { color:crimson; }
@@ -44,11 +44,13 @@ p + ul, p + ol { margin-top:10px; }
 time { font-variant: small-caps; text-shadow: 1px 0px 2px rgba(120, 120, 120, .6); }
 time + ul { margin-top:10px; }
 
-img { float:right; margin: 0 0 30px 30px; width: 160px; border: 2px solid #DDD; }
-img + dl { float:left; width:37%; margin-top:0; }
-img ~ dl dt { margin-right:10px; }
+img { float: left; margin: 0 160px 50px 0; width: 190px; border: 2px solid #DDD; }
+#contact {
+  line-height: 2;
+  border-radius:15px;
+  background:#FBF1F5; box-shadow:2px 0px 2px #CCC;
+  margin-top: 53px; padding: 20px 0;
+}
+#contact dt { width: 60px; }
+#summary { clear:left }
 
-/* in case there is no img (one html document with style tag):
-nav + dl { float:left; width:33%; margin-top:0; }
-nav ~ dl dt { margin-right:10px; }
-*/
