@@ -12,7 +12,7 @@ dl ul { margin-left:10px; }
 body {
   font:16px/1.5 baskerville, georgia, "times new roman", times, serif;
   width:600px; margin:0 auto; padding:15px 30px;
-  border-width:0 1px; border-style:solid; border-color:#ddd;
+  border-right: 1px solid #eee;
   background:snow; color:#111;
 }
 
@@ -31,8 +31,8 @@ body > section section h1 { margin:25px 0 10px; font-size:19px; }
 
 nav { position:fixed; visibility:hidden; }
 nav ol, .item-sections { list-style-type:none; padding-left:0; }
-nav ol { position:relative; left: 640px; bottom:5px; visibility:visible; }
-nav li:before { content:'# ';}
+nav ol { position:relative; left: 640px; top: 10px; visibility:visible; }
+nav li:before { content:'... ';}
 
 a:link, nav li { color:crimson; }
 a:hover, a:active { text-decoration:none; }
@@ -44,12 +44,14 @@ p + ul, p + ol { margin-top:10px; }
 time { font-variant: small-caps; text-shadow: 1px 0px 2px rgba(120, 120, 120, .6); }
 time + ul { margin-top:10px; }
 
-img { float: left; margin: 0 160px 50px 0; width: 190px; border: 2px solid #DDD; }
+img { float: right; width: 220px; border: 2px solid #DDD; }
 #contact {
   line-height: 2;
-  border-radius:15px;
-  background:#FBF1F5; box-shadow:2px 0px 2px #CCC;
-  margin-top: 53px; padding: 20px 0;
+  border-radius: 15px 0 0 15px;
+  background: #FBF1F5;
+  box-shadow: -2px 0px 2px #CCC;
+  margin-top: 68px;
+  padding: 20px 40px;
 }
 #contact dt { width: 60px; }
 #summary { clear:left }
