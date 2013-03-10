@@ -41,13 +41,13 @@ a:visited { color:indianred; }
 p { margin:8px 0; }
 p + ul, p + ol { margin-top:10px; }
 
-time { font-variant: small-caps; text-shadow: 1px 0px 2px rgba(120, 120, 120, .6); }
+time { font-variant: small-caps; text-transform: lowercase; text-shadow: 1px 0px 2px rgba(120, 120, 120, .6); }
 time + ul { margin-top:10px; }
 
 img { float: right; width: 220px; border: 2px solid #DDD; }
 #contact {
   line-height: 2;
-  border-radius: 15px 0 0 15px;
+  border-radius: 15px; border: 1px solid #e4e4e4;
   background: #FBF1F5;
   box-shadow: -2px 0px 2px #CCC;
   margin-top: 68px;
